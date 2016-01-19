@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="fundo_customactionbar">#DDDDDD</color>
+    <color name="fundo_linha_horario">#656565</color>
+    <color name="fundo_padrao">#E6EDE7</color>
+    <color name="fundo_splash">#79BF88</color>
+    <color name="fundo_weekdays">#48D6C8</color>
+    <color name="texto_linha_horario">#FFFFFF</color>
+    <color name="texto_numero_horario">#f49b1d</color>
+    <color name="verde1">#79BF88</color>
+    <color name="verde2">#48D6C8</color>
+    <color name="weekdaylist_divider">#A0A0A0</color>
+    <string name="app_name">Horario de Aula</string>
+    <string name="button_EndTime">Termina às 00:00</string>
+    <string name="button_StartTimeSelect">Começa às 00:00</string>
+    <string name="button_cancel">Cancelar</string>
+    <string name="button_close">Fechar</string>
+    <string name="button_delete">Apagar</string>
+    <string name="button_save">Salvar</string>
+    <string name="button_viewlist">Ver lista</string>
+    <string name="content_about">Este aplicativo foi desenvolvido pela empresa JG² IT Outsourcing. Chegamos ao mercado de apps para criar aplicativos de grande utilidade no cotidiano das pessoas, da forma mais simples e criativa possível. Confira nossos outros aplicativos em nosso site.</string>
+    <string name="content_accesslink">Acesse www.jg2.biz!</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="help_answer_howtoaddtimeclass">Para lançar horários de aula vá á tela inicial e clique sobre um dos horários desejados. Aparecerá a opção de informar Início,Término, Professor, Sala e Aula.</string>
+    <string name="help_answer_howtodeleteatimeclass">Faça um toque longo no horário desejado e uma tela com opções de alterar ou excluir aparecerá.</string>
+    <string name="help_question_howtoaddtimeclass">Como adicionar um horário?</string>
+    <string name="help_question_howtodeleteatimeclass">Como deletar um horário?</string>
+    <string name="label_classname">Aula:</string>
+    <string name="label_developedby">Desenvolvido por</string>
+    <string name="label_location">Sala:</string>
+    <string name="label_newclassname">Nova aula</string>
+    <string name="label_newclasstime">Novo horário</string>
+    <string name="label_newlocation">Nova sala</string>
+    <string name="label_newteacher">Novo Professor</string>
+    <string name="label_spinner_class">Aula</string>
+    <string name="label_spinner_location">Sala</string>
+    <string name="label_spinner_teacher">Professor</string>
+    <string name="label_teacher">Professor:</string>
+    <string name="label_timeend">Fim:</string>
+    <string name="label_timestart">Início:</string>
+    <string name="label_updateClassName">Modificar Aula</string>
+    <string name="label_updateLocation">Modificar Sala</string>
+    <string name="label_updateTeacher">Modificar Professor</string>
+    <string name="managertime">Gerenciar Horários</string>
+    <string name="menu_about">Sobre</string>
+    <string name="menu_help">Ajuda</string>
+    <string name="menu_newclassname">Nova aula</string>
+    <string name="menu_newlocation">Nova sala</string>
+    <string name="menu_newtimeclass">Novo Horário</string>
+    <string name="menu_search">Buscar</string>
+    <string name="menu_settings">Configurações</string>
+    <string name="menunewteacher">Novo Professor</string>
+    <string name="question_confirmdeletetimeclass">Deseja excluir este horário?</string>
+    <string name="tab_header_Classes">Aulas</string>
+    <string name="tab_header_Locations">Salas</string>
+    <string name="tab_header_SchoolTasks">Avaliações</string>
+    <string name="tab_header_Teachers">Professores</string>
+    <string name="tab_header_timeclass">Horários</string>
+    <string name="text_friday">Sexta-feira</string>
+    <string name="text_monday">Segunda-feira</string>
+    <string name="text_saturday">Sábado</string>
+    <string name="text_sunday">Domingo</string>
+    <string name="text_thursday">Quinta-feira</string>
+    <string name="text_tuesday">Terça-feira</string>
+    <string name="text_wednesday">Quarta-feira</string>
+    <string name="title_activity_custom_action_bar">CustomActionBar</string>
+    <string name="title_activity_dia_da_semana">DiaDaSemana</string>
+    <string name="title_activity_help">Ajuda</string>
+    <string name="title_activity_school_tasks">Provas e Trabalhos</string>
+    <string name="title_activity_slider">Slider</string>
+    <string name="title_activity_splash_screen">Horário de aulas</string>
+    <string name="title_activity_teachers_list">TeachersList</string>
+    <string name="title_activity_weekday">Dia</string>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+</resources>

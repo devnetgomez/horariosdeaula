@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="0dp"   
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/button_weekday" >
+
+         <Button
+             android:id="@+id/btnShowSunday"
+             android:layout_width="50dp"
+             android:layout_height="50dp"
+             android:background="@drawable/button_weekday"
+             android:textColor="#FFFFFF"
+             android:text="D" />
+
+        <Button
+            android:id="@+id/btnShowMonday"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/button_weekday"
+            android:text="S" />
+
+        <Button
+            android:id="@+id/btnShowTuesday"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/button_weekday"
+            android:text="T" />
+
+        <Button
+            android:id="@+id/btnShowWednesday"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/button_weekday"
+            android:text="Q" />
+
+        <Button
+            android:id="@+id/btnShowThursday"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/button_weekday"
+            android:text="Q" />
+
+        <Button
+            android:id="@+id/btnShowFriday"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/button_weekday"
+            android:text="S" />
+
+        <Button
+            android:id="@+id/btnShowSaturday"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/button_weekday"
+            android:text="S" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textWeekDayName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="5dp"
+        android:text="Week Day Name"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/fundo_linha_horario" />
+
+</LinearLayout>

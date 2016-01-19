@@ -1,0 +1,19 @@
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:gravity="center"
+  android:layout_margin="4dp"
+  android:background="@color/fundo_splash">
+    <TextView android:id="@+id/widget1label" 
+        android:text="testando primeiro widget"
+         android:layout_height="wrap_content" 
+         android:textAppearance="?android:attr/textAppearanceLarge" 
+         android:layout_width="wrap_content"/>
+    <Button android:text="confirma" 
+        android:id="@+id/button" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"/>
+    
+</LinearLayout>

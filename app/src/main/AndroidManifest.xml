@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.brzappi.agendadoestudante"
+    android:versionCode="3"
+    android:versionName="1.2" >
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icone"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.brzappi.agendadoestudante.Principal"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.brzappi.agendadoestudante.DiaDaSemana"
+            android:label="@string/title_activity_dia_da_semana" >
+        </activity>
+        <activity
+            android:name="com.brzappi.agendadoestudante.WeekDayActivity"
+            android:label="@string/title_activity_weekday" >
+        </activity>
+       
+        <activity
+            android:name="com.brzappi.agendadoestudante.CustomActionBar"
+            android:label="@string/title_activity_custom_action_bar" >
+        </activity>
+        <activity
+            android:name="com.brzappi.agendadoestudante.SplashScreen"
+            android:label="@string/title_activity_splash_screen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.brzappi.agendadoestudante.TeachersClassLocationList"
+            android:label="@string/title_activity_teachers_list" >
+        </activity>
+        <activity
+            android:name="com.brzappi.agendadoestudante.Help"
+            android:label="@string/title_activity_help" >
+        </activity>
+        <activity
+            android:name="com.brzappi.agendadoestudante.Slider"
+            android:label="@string/title_activity_slider" >
+        </activity>
+        <activity
+            android:name="com.brzappi.agendadoestudante.SchoolTasks"
+            android:label="@string/title_activity_school_tasks" >
+        </activity>
+        <activity
+            android:name="com.brzappi.agendadoestudante.NextClassesWidget"
+            android:label="Next classes" >
+             <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <receiver android:name="com.brzappi.agendadoestudante.NextClassesWidgetProvider" android:label="Próximas aulas">
+		  <intent-filter>
+		        <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+		        <meta-data android:name="android.appwidget.provider" 
+		      		android:resource="@xml/widget_next_classe_info" />
+		  </intent-filter>
+		  
+		</receiver>
+    </application>
+
+</manifest>

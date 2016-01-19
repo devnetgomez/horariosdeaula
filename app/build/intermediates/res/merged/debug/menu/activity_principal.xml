@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+   <item android:id="@+id/menu_newteacher" android:title="@string/menunewteacher" 
+       android:icon="@drawable/icon_teacher" />
+   <item android:id="@+id/menu_newlocation" android:icon="@drawable/icon_location" 
+       android:title="@string/menu_newlocation"></item>
+   <item android:id="@+id/menu_newclassname" android:icon="@drawable/icon_classes" 
+       android:title="@string/menu_newclassname"></item>
+   
+   <item android:id="@+id/menu_help" android:title="@string/menu_help" 
+       android:icon="@drawable/menu_ajuda" ></item>
+    
+    
+    <item android:id="@+id/menuAbout" android:title="@string/menu_about"
+         android:icon="@drawable/icon_about" >
+    </item>
+    
+    
+    
+
+ 
+
+</menu>
